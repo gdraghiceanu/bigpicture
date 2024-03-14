@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# Ignora folderele bin și obj pentru orice proiect
+**/bin/
+**/obj/
+
+# Ignora folderele .vs pentru orice proiect
+**/.vs/
+
+# Ignora alte foldere sau fișiere specifice care sunt generate
+# de Visual Studio sau alți editori
+**/Properties/launchSettings.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignora folderele de output pentru debug și release
+**/bin/Debug/
+**/bin/Release/
+
+# Alte fișiere și foldere care ar putea fi ignorate
+**/*.log
+*.cache
+*.vscode/
